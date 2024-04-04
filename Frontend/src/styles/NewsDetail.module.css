@@ -1,0 +1,34 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center; /* Centro el texto */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 28px; /* Tamaño de fuente del título */
+  margin-bottom: 15px; /* Mayor separación inferior */
+  font-weight: bold; /* Hace que el título sea más destacado */
+}
+
+.subtitle {
+  font-size: 20px; /* Tamaño de fuente del subtítulo */
+  margin-bottom: 15px; /* Mayor separación inferior */
+  font-style: italic; /* Estilo cursiva para el subtítulo */
+}
+
+.content {
+  font-size: 16px; /* Tamaño de fuente del contenido */
+  line-height: 1.5; /* Espaciado entre líneas para facilitar la lectura */
+  text-align: left; /* Alinea el texto a la izquierda */
+  margin-bottom: 20px; /* Espaciado inferior del contenido */
+}
+
+.image {
+  max-width: 100%;
+  margin-top: 20px; /* Espaciado superior de la imagen */
+  margin-bottom: 20px; /* Espaciado inferior de la imagen */
+}

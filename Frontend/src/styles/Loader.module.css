@@ -1,0 +1,42 @@
+/* En un nuevo archivo, por ejemplo, Loader.module.css */
+.loaderWrapper {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #fff; /* Puedes cambiar el color de fondo según tu diseño */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
+}
+
+.loader {
+    border: 8px solid #3498db; /* Puedes cambiar el color del borde */
+    border-radius: 50%;
+    border-top: 8px solid #e74c3c; /* Puedes cambiar el color del borde superior */
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+.loaderSection {
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    background-color: #fff; /* Puedes cambiar el color de fondo según tu diseño */
+}
+
+.sectionLeft {
+    left: 0;
+}
+
+.sectionRight {
+    right: 0;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

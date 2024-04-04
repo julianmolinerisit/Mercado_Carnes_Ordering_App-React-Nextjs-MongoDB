@@ -1,0 +1,2 @@
+# Ignorar el directorio node_modules en todo el proyecto
+**/node_modules/

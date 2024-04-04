@@ -1,0 +1,116 @@
+/* Edit.module.css */
+.container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  height: auto;
+  margin-left: 10px;
+  z-index: 1;
+  margin-left: 0;
+  display: block; /* Mantenemos el display como bloque por defecto */
+}
+
+.image{
+  width: 200px;
+  height: 200px;
+  margin-left: 32px;
+}
+
+.container.hidden {
+  display: none; /* Añadimos la clase hidden para ocultar el modal */
+}
+
+/* Edit.module.css */
+.close {
+    position: absolute;
+    right: 90px;
+    font-size: 22px;
+    cursor: pointer;
+    z-index: 1; /* Agrega esta línea para asegurarte de que el botón de cierre esté en la capa superior */
+  }
+
+
+.item {
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.inputSm {
+  width: 85%;
+}
+
+
+
+.priceContainer {
+  display: flex;
+  gap: 10px;
+}
+
+.extra {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.extraItem {
+  display: flex;
+  gap: 10px;
+}
+
+.updateButton {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 5px 0px 0;
+    font-size: 12px;
+}
+
+.updateButton:hover {
+  background-color: #0056b3;
+}
+
+.closeButton {
+  background-color: red;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 0 0px 5px;
+    font-size: 12px;
+}
+
+.closeButton:hover {
+  background-color: #c30303;
+}
+
+/* Otros estilos existentes ... */
+
+/* Estilos para el botón "Cerrar" */
+.closeButtonContainer {
+  display: flex;
+  justify-content: flex-end; /* Coloca el botón al final del formulario */
+  margin-top: 20px; /* Espaciado superior para separar el botón de los otros elementos */
+}
+
+/* Otros estilos existentes ... */
+

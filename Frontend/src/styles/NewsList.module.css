@@ -1,0 +1,91 @@
+/* NewsList.module.css */
+
+.container {
+    padding: 2rem;
+  }
+  
+  .filterBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .filterBar select {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  /* Estilos para la barra de búsqueda */
+  .searchBar {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .searchBar input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 20px;
+  }
+  
+  .newsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .newsCard {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: white;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .newsCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .newsTitle {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .newsSubtitle {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  
+  .newsContent {
+    font-size: 1rem;
+  }
+  
+  /* Estilos adicionales para las opciones de filtro */
+  .filterOptions {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  /* Estilos para los botones de "Mostrar Todas" y "Mostrar Últimas" */
+  .filterOptionButton {
+    padding: 0.5rem 1rem;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .filterOptionButton.active {
+    background-color: #007bff;
+    color: white;
+  }
+  

@@ -1,0 +1,234 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  background-color: white;
+  border-radius: 10px;
+  max-width: 80%; /* Ancho máximo del modal */
+  padding: 30px;
+  display: flex;
+  overflow: hidden;
+}
+
+.form-container {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.preview-container {
+  flex: 1;
+  padding: 20px;
+  background-color: #f0f0f0; /* Color de fondo para la previsualización */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.textarea {
+  resize: vertical;
+}
+
+.button {
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.close {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+
+.preview {
+  margin-top: 20px;
+  margin-top: 20px;
+  text-align: center;
+  width: 350px;
+  height: 410px;
+  background-color: #ede8e8;
+  padding: 6px;
+  text-align: center;
+}
+
+.separator {
+  border: 1px solid #ccc; /* Estilo de la línea separadora */
+  margin: 20px 0; /* Espacio vertical alrededor de la línea */
+}
+
+
+.formContainer{
+  margin-right: 20px;
+}
+
+.preview h3 {
+  font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: -10px;
+}
+
+
+.preview h4 {
+  font-size: 16px;
+}
+
+.preview img {
+  max-width: 15%;
+  height: auto;
+}
+
+/* Añade cualquier estilo adicional que necesites para personalizar tu diseño */
+
+.button {
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.mainAddButton {
+  padding: 10px;
+  margin: 20px;
+  background-color: #000;
+  width: 200px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  font-size: 12px
+}
+
+
+.close {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+
+.addButton {
+ 
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 0 0px 5px;
+    font-size: 12px;
+}
+
+.addButton:hover {
+  background-color: #0056b3;
+}
+
+
+.closeButton {
+  background-color: red;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 0 0px 5px;
+    font-size: 12px;
+}
+
+.closeButton:hover {
+  background-color: #c30303;
+}

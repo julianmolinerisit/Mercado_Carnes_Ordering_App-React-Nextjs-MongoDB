@@ -1,0 +1,20 @@
+/* styles/Terms.module.css */
+.termsContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .titleterms,
+  .sutitleterms {
+    color: #333;
+  }
+  
+  .parrafoterms {
+    margin-bottom: 15px;
+  }
+  
+  .strongterms {
+    color: #e44d26; /* Color de WhatsApp */
+  }
+  

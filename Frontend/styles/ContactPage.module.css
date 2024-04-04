@@ -1,0 +1,48 @@
+/* ContactPage.module.css */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center; /* Centro el texto */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 28px; /* Tamaño de fuente del título */
+  margin-bottom: 20px; /* Mayor separación inferior */
+  font-weight: bold; /* Hace que el título sea más destacado */
+}
+
+.label {
+  display: block;
+  font-size: 18px; /* Tamaño de fuente de las etiquetas */
+  margin-bottom: 10px; /* Espaciado inferior de las etiquetas */
+  text-align: left; /* Alinea las etiquetas a la izquierda */
+}
+
+.input,
+.textarea {
+  width: 100%; /* Ancho completo para que sea responsive */
+  padding: 12px; /* Aumenta el relleno para una mejor experiencia de usuario */
+  font-size: 16px; /* Tamaño de fuente de los campos de entrada */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px; /* Mayor espaciado inferior */
+}
+
+.button {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 18px; /* Tamaño de fuente del botón */
+  padding: 12px 24px; /* Aumenta el relleno del botón */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
